@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/briansproule/Coding\\ Projects/hosh-tunes:*)",
+      "Bash(npx create-next-app@latest:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
