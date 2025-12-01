@@ -16,6 +16,21 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Hosh Tunes",
   description: "Premium audio experiences curated for the modern listener.",
+  icons: {
+    icon: "/hosh-favicon.png",
+    apple: "/hosh-favicon.png",
+  },
+  openGraph: {
+    title: "Hosh Tunes",
+    description: "Premium audio experiences curated for the modern listener.",
+    images: ["/hosh-favicon.png"],
+  },
+  twitter: {
+    card: "summary",
+    title: "Hosh Tunes",
+    description: "Premium audio experiences curated for the modern listener.",
+    images: ["/hosh-favicon.png"],
+  },
 };
 
 export default function RootLayout({
